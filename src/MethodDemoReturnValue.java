@@ -33,4 +33,13 @@ public class MethodDemoReturnValue {
         // returning the value of addition
         return response;
     }
+
+    //task
+    //create a method add, which accept three arguments, int no1, float no2, double no3,
+    // this method will return an double value that is addition of three arguments
+    public double add(int no1, float no2, double no3) {
+        double response = 0.0;
+        response = no1 + no2 + no3;
+        return response;
+    }
 }
